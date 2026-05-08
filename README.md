@@ -1,8 +1,8 @@
-# Next.js Demo Project 🚀
+# Next.js Demo Project 🌐
 
 A modern, full-stack React framework for production-ready applications.
 
-## 🌟 Features
+## 🚀 Features
 
 - **Server-Side Rendering (SSR)** - Fast initial page loads
 - **Static Site Generation (SSG)** - Pre-built pages for optimal performance
@@ -12,7 +12,7 @@ A modern, full-stack React framework for production-ready applications.
 - **TypeScript Support** - Built-in TypeScript support
 - **CSS Modules & Sass** - Styling solutions out of the box
 
-## 🚀 Quick Start
+## 🌟 Quick Start
 
 ### Prerequisites
 
@@ -49,35 +49,35 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## 📁 Project Structure
+## 📂 Project Structure
 
 ```
 my-next-app/
 ├── pages/
 │   ├── api/
-│   │   └── hello.js
-│   ├── _app.js
-│   ├── _document.js
-│   └── index.js
+│   │   └── users.js
+│   ├── index.js
+│   ├── about.js
+│   └── blog/[slug].js
 ├── public/
 │   ├── favicon.ico
 │   └── vercel.svg
 ├── styles/
 │   ├── globals.css
-│   └── Home.module.css
-├── next.config.js
+│   ├── Home.module.css
+│   └── next.config.js
 ├── package.json
 └── README.md
 ```
 
-## 🛠️ Available Scripts
+## 📜 Available Scripts
 
 - `npm run dev` - Starts the development server
 - `npm run build` - Builds the app for production
 - `npm run start` - Runs the built app in production mode
 - `npm run lint` - Runs ESLint for code linting
 
-## 📖 Key Concepts
+## 🔑 Key Concepts
 
 ### Pages
 
@@ -142,15 +142,15 @@ export default function Home() {
   return (
     <div>
       <p>Hello World</p>
-      <style jsx>{
+      <style jsx>{`
         p { color: blue; }
-      }</style>
+      `}</style>
     </div>
   )
 }
 ```
 
-## 🚢 Deployment
+## 🚀 Deployment
 
 ### Vercel (Recommended)
 
@@ -158,7 +158,7 @@ export default function Home() {
 2. Connect your repository to [Vercel](https://vercel.com)
 3. Deploy with zero configuration
 
-### Other Platforms
+## Other Platforms
 
 - **Netlify**: Build command: `npm run build`, Publish directory: `out`
 - **AWS Amplify**: Supports Next.js out of the box
@@ -183,7 +183,7 @@ export default function Home() {
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## 🏆 Acknowledgments
 
 - [Vercel](https://vercel.com) - The creators of Next.js
 - [React](https://reactjs.org) - The library that powers Next.js
@@ -191,9 +191,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-⭐ Star this repository if you found it helpful!
+🌟 Star this repository if you found it helpful!
 
-🔗 **Links:**
+🌐 **Links:**
 - [Demo](https://your-demo-link.vercel.app)
 - [Documentation](https://nextjs.org)
 - [Community](https://github.com/vercel/next.js/discussions)
